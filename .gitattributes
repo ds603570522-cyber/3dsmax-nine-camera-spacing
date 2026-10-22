@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Preserve tested MAXScript bytes, including their UTF-8 BOM.
+*.ms -text
+*.mcr -text
+*.md text eol=lf
+*.mzp binary
+*.zip binary
+NineCameraSpacing/mztoplevel.mzp text diff merge eol=lf

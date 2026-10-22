@@ -1,0 +1,21 @@
+# Local scene work and generated animation outputs are outside this plugin project.
+/animation-backups/
+/animation-output/
+
+# 3ds Max scene data, backups and temporary files.
+*.max
+*.max.bak
+*.bak
+*.sv$
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+
+# Local editor/runtime state.
+.vs/
+.vscode/
+__pycache__/
+*.pyc
+.env
+.env.*

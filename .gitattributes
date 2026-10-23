@@ -6,4 +6,4 @@
 *.md text eol=lf
 *.mzp binary
 *.zip binary
-NineCameraSpacing/mztoplevel.mzp text diff merge eol=lf
+*.run text eol=lf

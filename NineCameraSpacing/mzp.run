@@ -1,0 +1,5 @@
+name "NakedEye3D Nine Camera Spacing 1.1.0"
+description "Nine cameras, fixed center and fixed targets, spacing in millimeters"
+version 1.1
+run "Install.ms"
+drop "Install.ms"

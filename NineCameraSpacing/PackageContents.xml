@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" ProductType="Application" AutodeskProduct="3ds Max" Name="NakedEye3D Nine Camera Spacing" Description="Shared Plugins menu and nine camera spacing" AppVersion="1.1.0" FriendlyVersion="1.1.0" Author="NakedEye3D" ProductCode="{9DB6A5D2-4F27-4A51-B7BF-78D04BA1030C}" UpgradeCode="{A82BBAA4-2140-4153-8C78-3E04AE536337}">
+  <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2026" SeriesMax="2026" />
+  <CompanyDetails Name="NakedEye3D" />
+  <Components Description="macroscripts parts">
+    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2026" SeriesMax="2026" />
+    <ComponentEntry ModuleName="./NineCameraSpacing.mcr" />
+  </Components>
+  <Components Description="pre-start-up scripts parts">
+    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2026" SeriesMax="2026" />
+    <ComponentEntry ModuleName="./NineCameraMenu.ms" />
+  </Components>
+</ApplicationPackage>
